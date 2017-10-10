@@ -1,0 +1,17 @@
+{
+    "database": "./chatterbot_database",
+    "storageAdapter": "SQLStorageAdapter",
+    "botName": "Amelia",
+    "trainer": "none",
+    "readOnly": false,
+    "specificResponseAdapter": {
+      "input_text": "Help",
+      "output_text": "I am a friendly chatbot! How may I help you?"
+    },
+    "lowConfidenceAdapter": {
+      "threshold": 0.40,
+      "default_response": "Sorry, I didn't get that."
+    },
+    "nameInquiry": "Hello! What is your name?",
+    "initialGreeting": "Nice to meet you!"
+  }
